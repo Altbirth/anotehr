@@ -42,9 +42,9 @@ const Home: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {data.post.map((post, index) => (
             <div key={index} className="">
-              <h3 className="text-xl font-semibold text-gray-950 mb-2">{post.title}</h3>
+              <h3 className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white">{post.title}</h3>
               <p className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white">{post.content}</p>
-              <p className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white">{post.date}</p>
+
             </div>
           ))}
         </div>
