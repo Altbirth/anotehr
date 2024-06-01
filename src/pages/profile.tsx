@@ -40,7 +40,7 @@ const ProfilePage: React.FC = () => {
                 <Field
                   name="name"
                   type="text"
-                  className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white"
+                  className=" bg-gray-800 border text-white"
                 />
               </div>
               <div>

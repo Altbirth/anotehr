@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         <Typography variant="h6" gutterBottom style={{ marginTop: '2rem'}}>Notes</Typography>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {data.post.map((post, index) => (
-            <div key={index} className="bg-yellow-300 p-4 rounded-lg shadow-lg shadow-yellow-200">
+            <div key={index} className="">
               <h3 className="text-xl font-semibold text-gray-950 mb-2">{post.title}</h3>
               <p className="text-gray-900 mb-2">{post.content}</p>
               <p className="text-gray-900 text-sm">{post.date}</p>
