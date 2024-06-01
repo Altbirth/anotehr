@@ -2,19 +2,19 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 let userData = {
   id: 1,
-  name: 'Rovick Anthony Pasamonte',
-  email: 'rovickpasamonte@gmail.com',
+  name: 'Albert G. Mirasol',
+  email: 'albertmirasoljr@gmail.com',
   bio: 'Third Year Computer Science Student, Block 1',
   post: [
     {
       title: "Note 1",
       content: "Create a Website Using Next.js",
-      date: "05/31/2024 - 00:05"
+
     },
     {
       title: "Note 2",
       content: "Deploy it and pass at 5pm",
-      date: "05/31/2024 - 00:09"
+
     }
   ]
 };
