@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 function Header() {
   return (
-    <header className='p-4 w-screen bg-gray-800 text-white shadow-lg'>
+    <header className=''>
       <div className='container mx-auto flex items-center justify-between'>
         <div>
-          <Link href="/">
+          {/* <Link href="/">
             <Image src="/logo.png" alt="Logo" width={150} height={50} />
-          </Link>
+          </Link> */}
         </div>
         <nav className='flex justify-end'>
           <Link href="/" className='mx-2 px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-600 transition duration-300'>
