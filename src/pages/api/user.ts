@@ -7,13 +7,13 @@ let userData = {
   bio: 'Bachelor of Computer Science, 3rd Year, Block 1',
   post: [
     {
-      title: "Note 1",
-      content: "Create a Website Using Next.js",
+      title: "Hello",
+      content: "World",
 
     },
     {
-      title: "Note 2",
-      content: "Deploy it and pass at 5pm",
+      title: "Deploment",
+      content: "Vercel",
 
     }
   ]
