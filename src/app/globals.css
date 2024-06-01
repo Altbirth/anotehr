@@ -11,10 +11,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 0, 255, 255;
-    --background-start-rgb: 55, 65, 81;
-    --background-end-rgb: 4, 13, 18;
-    --primary-color: 100, 255, 255; 
+    --foreground-rgb: 0, 255, 255; /* Cyan color for foreground elements */
+    --background-start-rgb: 125, 145, 161; /* Lightened color for the background start */
+    --background-end-rgb: 104, 113, 118; /* Lightened color for the background end */
+    --primary-color: 100, 255, 255; /* Cyan color for primary elements */
   }
 }
 

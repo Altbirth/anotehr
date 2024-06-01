@@ -4,7 +4,7 @@ let userData = {
   id: 1,
   name: 'Albert G. Mirasol Jr',
   email: 'albertmirasoljr@gmail.com',
-  bio: 'Bachelor of Computer Science, 3rd Year Block 1',
+  bio: 'Bachelor of Computer Science, 3rd Year, Block 1',
   post: [
     {
       title: "Note 1",
