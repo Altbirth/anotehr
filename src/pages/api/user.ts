@@ -11,11 +11,7 @@ let userData = {
       content: "World",
 
     },
-    {
-      title: "Deploment",
-      content: "Vercel",
-
-    }
+   
   ]
 };
 
