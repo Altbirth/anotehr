@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Final Web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to my Website
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+         Edited by Albert G Mirasol Jr
         </p>
 
         <div className={styles.grid}>
