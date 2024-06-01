@@ -33,7 +33,7 @@ const Home: React.FC = () => {
     <Main>
       <Container className='profile-section'>
         <div className="flex flex-col items-center mb-20">
-          <Image src="/pic.jpg" alt="profile picture" width={150} height={50} className="w-24 h-24 rounded-full mb-4"/>
+          <Image src="/profile.jpg" alt="profile picture" width={150} height={50} className="w-24 h-24 rounded-full mb-4"/>
           <Typography variant="h3" gutterBottom>{data.name}</Typography>
           <Typography variant="h6" gutterBottom style={{ color: 'white' }}>{data.email}</Typography>
           <Typography variant="body2" gutterBottom style={{ color: 'white' }}>{data.bio}</Typography>
