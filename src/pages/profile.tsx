@@ -48,7 +48,7 @@ const ProfilePage: React.FC = () => {
                 <Field
                   name="email"
                   type="email"
-                  className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white"
+                  className=" bg-gray-800 border text-white"
                 />
               </div>
               <div>
@@ -57,7 +57,7 @@ const ProfilePage: React.FC = () => {
                   name="bio"
                   as="textarea"
                   rows={3}
-                  className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white"
+                  className=" bg-gray-800 border text-white"
                 />
               </div>
               <div>

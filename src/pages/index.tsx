@@ -43,8 +43,8 @@ const Home: React.FC = () => {
           {data.post.map((post, index) => (
             <div key={index} className="">
               <h3 className="text-xl font-semibold text-gray-950 mb-2">{post.title}</h3>
-              <p className="text-gray-900 mb-2">{post.content}</p>
-              <p className="text-gray-900 text-sm">{post.date}</p>
+              <p className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white">{post.content}</p>
+              <p className="mt-1 p-2 block w-full bg-gray-800 border border-gray-600 rounded text-white">{post.date}</p>
             </div>
           ))}
         </div>
